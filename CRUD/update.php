@@ -95,7 +95,7 @@ print_r($id);
 function db_connect(){
   $servername = "localhost";
   $username 	= "root";
-  $password 	= "";
+  $password 	= "machine1";
   $dbname 		= "contacts";
   $conn = mysqli_connect($servername, $username, $password,$dbname);
   return $conn;
