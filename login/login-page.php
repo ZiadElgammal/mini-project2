@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 $servername = "localhost";
 $username = "root";
-$password = "";
+$password = "machine1";
 $dbname = "contacts";
 
 // Create connection
